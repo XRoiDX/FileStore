@@ -27,7 +27,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002443783880")) #Your db channe
 OWNER = os.environ.get("OWNER", "TheW_ContactBot") # Owner username without @
 OWNER_ID = int(os.environ.get("OWNER_ID", "7577976169")) # Owner id
 #--------------------------------------------
-PORT = os.environ.get("PORT", "8001")
+PORT = os.environ.get("PORT", "8080")
 #--------------------------------------------
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://videshi:videshi@videshi.wtffv.mongodb.net/?retryWrites=true&w=majority&appName=videshi")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluooo")
